@@ -30,7 +30,7 @@ O projeto usa a arquitetura AppObject e esta organizada da seguinte maneira:
 
 #### configurations.properties:
 Esse arquivo define as principais configurações do projeto:
-| Tecnologia usada  | valor padrão | página oficial |
+| Nome da constante | valor padrão | página oficial |
 | ----------------  | ------------ | -------------- |
 | DEFAULT_TIMEOUT   | 15           | Define um timeout padrão para a busca dos elementos na página em segundos|
 | DEFAULT_PAGE_LOAD | 15           | Define um timeout padrão para o carregamento das páginas em segundos|
