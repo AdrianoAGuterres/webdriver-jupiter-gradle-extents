@@ -18,6 +18,8 @@ gradlew.bat
 *.log
 *.jar
 
+# report
+reports/**
 
 
 
