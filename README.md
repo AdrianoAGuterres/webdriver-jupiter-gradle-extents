@@ -26,7 +26,7 @@ Ps: é necessário tanto a instalação quanto a configuração das variáveis d
 #### Arquitetura usada:
 O projeto usa a arquitetura AppObject e esta organizada da seguinte maneira:
 
->https://user-images.githubusercontent.com/80764831/112851148-14424380-9081-11eb-8083-b3cfe9282957.png
+![alt text](https://user-images.githubusercontent.com/80764831/112851148-14424380-9081-11eb-8083-b3cfe9282957.png)
 
 #### configurations.properties:
 Esse arquivo define as principais configurações do projeto:
