@@ -14,7 +14,7 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.fail;
 
-class ComprarUmItemTestCase{
+class ComprarTestCase{
     
     private CostumerFake customerFake;
     
@@ -41,7 +41,7 @@ class ComprarUmItemTestCase{
     }
     
     @RepeatedTest(5)
-    public void testMain(){
+    public void adicionarUmItemNoCarrinhoCadastrarUsuarioFinalizarCompraComSucesso(){
         try{
             OrderTasks orderTasks = new OrderTasks();
             PaymentTasks paymentTasks = new PaymentTasks();

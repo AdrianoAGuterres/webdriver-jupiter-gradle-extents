@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class Driver{
     
     private static WebDriver DRIVER = null;
-    private static final String HEADLESS = ConfigurationTool.getProperty("NAV_TYPE");
+    private static final String HEADLESS = ConfigurationTool.getProperty("HEADLESS_TYPE");
     private static final String DEFAULT_URL = ConfigurationTool.getProperty("DEFAULT_URL");
     private static final String DEFAULT_TIMEOUT = ConfigurationTool.getProperty("DEFAULT_TIMEOUT");
     private static final String DEFAULT_PAGE_LOAD = ConfigurationTool.getProperty("DEFAULT_PAGE_LOAD");
