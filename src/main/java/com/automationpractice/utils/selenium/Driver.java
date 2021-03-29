@@ -1,6 +1,7 @@
 package com.automationpractice.utils.selenium;
 
 import com.automationpractice.utils.config.ConfigurationTool;
+import com.automationpractice.utils.exceptions.BrowserTypeNotImplementedException;
 import com.google.inject.Singleton;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import lombok.SneakyThrows;
@@ -44,7 +45,7 @@ public class Driver{
                 DRIVER = new FirefoxDriver();
                 
             }else{
-                //throw new InvalidNameException("Ainda não há implementação para esse navegador!");
+                throw new BrowserTypeNotImplementedException("Não há implementação para o Browser "+browser+" !");
             }
             
             DRIVER.manage().deleteAllCookies();

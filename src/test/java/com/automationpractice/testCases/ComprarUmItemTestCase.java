@@ -24,7 +24,7 @@ class ComprarUmItemTestCase{
         this.customerFake = CostumerFakeManager.getNewCostumerFake();
     }
     
-    //@BeforeAll
+    @BeforeAll
     public static void setUpClass(){
         Report.initializeReport("Suite de compras", "Testes de compras", true);
     }
@@ -120,9 +120,9 @@ class ComprarUmItemTestCase{
             Report.log(Status.INFO, "O teste finalizou!", false);
             
         }catch(Exception e){
-            Report.log(Status.FAIL, "O teste falhou: " + e, true);
+            Report.log(Status.FAIL, "O teste falhou: " + e, false);
             fail(e);
         }
-        
+    
     }
 }

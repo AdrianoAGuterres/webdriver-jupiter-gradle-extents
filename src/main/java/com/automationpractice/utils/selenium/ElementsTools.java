@@ -2,6 +2,7 @@ package com.automationpractice.utils.selenium;
 
 import com.automationpractice.utils.enuns.SelectBy;
 import com.automationpractice.utils.config.ConfigurationTool;
+import com.automationpractice.utils.exceptions.SelectTypeNotImplementedException;
 import com.automationpractice.utils.report.Report;
 import com.aventstack.extentreports.Status;
 import org.openqa.selenium.By;
@@ -68,8 +69,9 @@ public class ElementsTools{
         try{
             switch(selectBy){
                 case SELECT_BY_VALUE -> element.selectByValue(value);
-                case SELECT_BY_VISIBLE_TEXT -> element.selectByVisibleText(value);
                 case SELECT_BY_INDEX -> element.selectByIndex(Integer.parseInt(value));
+                case SELECT_BY_VISIBLE_TEXT -> element.selectByVisibleText(value);
+                default -> throw new SelectTypeNotImplementedException("Não há implementação para esse tipo de Select "+selectBy.name()+"!");
             }
             Report.log(Status.INFO, "Foi selecionada a opção '"+value+"' do campo '"+elementName+"'.", false);
             

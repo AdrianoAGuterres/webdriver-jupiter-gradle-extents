@@ -13,7 +13,7 @@ public enum FirstDressItem {
     ORDER_INCOMMING_TAX ("0.00"),
     ORDER_TOTAL_COST ("28.00");
     
-    private String value;
+    private final String value;
     
     FirstDressItem(String value) {
         this.value = value;
