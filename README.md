@@ -8,7 +8,7 @@
 #### Pré requisitos:
 | requisito | página de download |
 | ------    | ------ |
-| Java 11   | https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html |
+| Java 8    | https://www.oracle.com/br/java/technologies/javase-jdk8-downloads.html |
 | Gradle    | https://gradle.org/install/ |
 ```sh
 Ps: é necessário tanto a instalação quanto a configuração das variáveis de ambiente tanto do Java, a quanto do Gradle.
