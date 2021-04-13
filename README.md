@@ -11,7 +11,7 @@
 | Java 8    | https://www.oracle.com/br/java/technologies/javase-jdk8-downloads.html |
 | Gradle    | https://gradle.org/install/ |
 ```sh
-Ps: é necessário tanto a instalação quanto a configuração das variáveis de ambiente tanto do Java, a quanto do Gradle.
+Ps: é necessário tanto a instalação quanto a configuração das variáveis de ambiente tanto do Java, quanto do Gradle.
 ```
 
 ### Dependências:
@@ -30,7 +30,7 @@ O projeto usa a arquitetura AppObject e esta organizada da seguinte maneira:
 
 #### configurations.properties:
 Esse arquivo define as principais configurações do projeto:
-| Nome da constante | valor padrão | página oficial |
+| Nome da constante | valor padrão | função no projeto |
 | ----------------  | ------------ | -------------- |
 | DEFAULT_TIMEOUT   | 15           | Define um timeout padrão para a busca dos elementos na página em segundos|
 | DEFAULT_PAGE_LOAD | 15           | Define um timeout padrão para o carregamento das páginas em segundos|
