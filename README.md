@@ -1,6 +1,6 @@
 # webdriver-jupiter-gradle-extents
 >Resumo:
->Implementação de Testes Automatizados de Interfaces Gráficas com o uso das tecnologias Java 11, Selenium Webdriver, Gradle, Junit 5 e Extents Report;
+>Implementação de Testes Automatizados de Interfaces Gráficas com o uso das tecnologias Java 8, Selenium Webdriver, Gradle, Junit 5 e Extents Report;
 
 #### Página testada:
 > http://www.automationpractice.com/
